@@ -64,7 +64,7 @@
   .text img {
     height: 150px;
   }
-@media only screen and (max-width:416px){
+@media only screen and (max-width:430px){
   .text img {
     height: 110px;
   }

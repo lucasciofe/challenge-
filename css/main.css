@@ -1,0 +1,74 @@
+/* Main content divided per 2 columns , first with 80% and second with 20% */
+.container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  gap: 30px;
+  margin: 10px;
+  
+  
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #0c4ea5;
+  color: #fff;
+  padding: 0 30px;
+  gap: 30px;
+  height: 90%;
+}
+
+.container-text {
+  display:grid;
+  grid-template-columns: 1fr;
+}
+
+.container-text p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text img{
+  display: block;
+  margin: 10px auto;
+  height: 200px;
+}
+
+.benefitis{
+  background-color: #0a3e5a;
+  color: #fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  padding: 0 30px;
+  padding-bottom: 30px;
+  
+  
+}
+
+.benefitis p{
+  text-align: left;
+}
+.benefitis img{
+  max-width: 150px;
+}
+
+/* layout for mobile, added only 1 column */
+@media(max-width:780px){
+  .container{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .container-text{
+    padding: 20px 0;
+  }
+  .text img {
+    height: 150px;
+  }
+
+  /* Benefits section placed in the centre of the page  */
+  .benefitis{
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

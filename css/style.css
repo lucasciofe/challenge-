@@ -1,4 +1,4 @@
-/* I separated the css configuration in small pieces, which 
+/* separated the css configuration in small pieces, which 
 file is responsible for specific area */
 
 @import "./header.css";
@@ -21,4 +21,6 @@ body {
   background-position: center;
   
 }
+
+
 
